@@ -26,9 +26,10 @@ export default function Page() {
       <section className={styles.section} id="overview">
         <h2 className={styles.h2}>概要</h2>
         <p>
-          R.E.P.Oは、最大6人で挑むオンライン協力型ホラーゲーム。
+          R.E.P.Oは、最大6人で挑むオンライン協力型ホラーゲームです。
           プレイヤーは仲間と共に、恐ろしい環境へ足を踏み入れ、“貴重品”を回収していく。
           ボイスチャット（VC）で仲間とわいわいしながら楽しめるゲームです。
+          もし可能ならば、一人でもプレイできますので練習がてらやるのもいいでしょう。
         </p>
       </section>
 
