@@ -1,0 +1,108 @@
+.container {
+  max-width: 1080px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial;
+  color: #0f172a;
+}
+
+.hero {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 32px;
+}
+
+.heroText {
+  flex: 1 1 380px;
+}
+
+.title {
+  font-size: 2.1rem;
+  margin: 0 0 8px 0;
+}
+
+.lead {
+  margin: 0 0 16px 0;
+  color: #334155;
+}
+
+.ctaRow {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.heroImage {
+  flex: 0 0 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview {
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.08);
+}
+
+.section {
+  margin: 28px 0;
+}
+
+.h2 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.screenshots {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.externalLink {
+ 	color: #0ea5e9;
+ 	text-decoration: none;
+ 	padding: 6px 10px;
+ 	border-radius: 6px;
+}
+
+.externalLink:hover {
+ 	text-decoration: underline;
+}
+
+.controlsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.footer {
+  margin: 40px 0 80px;
+  text-align: center;
+  color: #94a3b8;
+}
+
+@media (max-width: 640px) {
+  .heroImage {
+    flex-basis: 100%;
+    margin-bottom: 12px;
+  }
+  .hero {
+    gap: 12px;
+  }
+}
