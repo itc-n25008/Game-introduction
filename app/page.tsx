@@ -29,7 +29,7 @@ export default function Page() {
           R.E.P.Oは、最大6人で挑むオンライン協力型ホラーゲームです。
           プレイヤーは仲間と共に、恐ろしい環境へ足を踏み入れ、“貴重品”を回収していく。
           ボイスチャット（VC）で仲間とわいわいしながら楽しめるゲームです。
-          もし可能ならば、一人でもプレイできますので練習がてらやるのもいいでしょう。
+          一人でもプレイできますので挑戦してみるのもいいでしょう。
         </p>
       </section>
 
@@ -39,7 +39,8 @@ export default function Page() {
           <div>
             <ul>
               <li>移動:WASD</li>
-              <li>アイテム所持: 1–3キー</li>
+              <li>アイテムの出し入れ: 1–3キー</li>
+              <li>視点操作:マウスパッド、マウス</li>
             </ul>
           </div>
         </div>
@@ -50,6 +51,16 @@ export default function Page() {
         <ul>
           <li>PC（steam）</li>
         </ul>
+      </section>
+
+      <section className={styles.section} id="price">
+        <h2 className={styles.h2}>値段</h2>
+        <div className={styles.priceBox}>
+          <span className={styles.price}>¥1200</span>
+        </div>
+        <div className={styles.priceBox}>
+          <span className={styles.price}>セール時¥780~¥840</span>
+        </div>
       </section>
 
       <section className={styles.section} id="screenshots">
@@ -63,6 +74,17 @@ export default function Page() {
             <Image src="/repofait.jpeg" alt="" width={300} height={180} />
             <figcaption></figcaption>
           </figure>
+        </div>
+      </section>
+
+      
+
+      <section className={styles.section} id="enemies">
+        <h2 className={styles.h2}>敵一覧</h2>
+        <div className={styles.enemyList}>
+          <Link href="/enemy-list" className={styles.enemyCard}>
+            敵一覧を見る
+          </Link>
         </div>
       </section>
 

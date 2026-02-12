@@ -53,8 +53,35 @@
   box-shadow: 0 6px 18px rgba(2, 6, 23, 0.08);
 }
 
+/* Make preview images responsive and avoid vertical cropping. */
+.preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 420px; /* matches the width prop used in the Image component */
+  object-fit: contain; /* ensure whole image is visible */
+}
+
 .section {
   margin: 28px 0;
+}
+
+/* Price block shown under プレイ方法 */
+.priceBox {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.price {
+  background: linear-gradient(180deg,#111827 0%, #0b1220 100%);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.12);
+  font-size: 1rem;
 }
 
 .h2 {
@@ -74,15 +101,39 @@
   margin-top: 8px;
 }
 
+/* Enemy list link styles */
+.enemyList {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.enemyCard {
+  display: inline-block;
+  padding: 10px 14px;
+  background: #0f172a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(2,6,23,0.12);
+  font-weight: 700;
+}
+
+.enemyCard:hover {
+  transform: translateY(-2px);
+  transition: transform 120ms ease-in-out;
+}
+
 .externalLink {
- 	color: #0ea5e9;
- 	text-decoration: none;
- 	padding: 6px 10px;
- 	border-radius: 6px;
+  color: #0ea5e9;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
 }
 
 .externalLink:hover {
- 	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .controlsGrid {
