@@ -9,7 +9,7 @@ export default function Page() {
     <main className={styles.container}>
       <section className={styles.hero}>
         <div className={styles.heroText}>
-          <h1 className={styles.title}>R.E.P.O</h1>
+          <h1 className={styles.title}>R.E.P.O.</h1>
           <p className={styles.lead}>協力型ホラーゲーム</p>
         </div>
         <div className={styles.heroImage} aria-hidden>
@@ -29,7 +29,7 @@ export default function Page() {
           R.E.P.Oは、最大6人で挑むオンライン協力型ホラーゲームです。
           プレイヤーは仲間と共に、恐ろしい環境へ足を踏み入れ、“貴重品”を回収していく。
           ボイスチャット（VC）で仲間とわいわいしながら楽しめるゲームです。
-          一人でもプレイできますので挑戦してみるのもいいでしょう。
+          一人でもプレイできますので挑戦してみてください。
         </p>
       </section>
 
@@ -76,8 +76,6 @@ export default function Page() {
           </figure>
         </div>
       </section>
-
-      
 
       <section className={styles.section} id="enemies">
         <h2 className={styles.h2}>敵一覧</h2>

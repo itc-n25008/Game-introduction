@@ -5,177 +5,177 @@ import styles from "./page.module.css";
 const ENEMIES = [
   {
     id: "animal",
-    name: "Animal",
+    name: "Animal(アニマル)",
     img: "/animal.png",
-    desc: "",
+    desc: "体当りしてくる",
   },
   {
     id: "apex-predator",
-    name: "Apex-predator",
+    name: "Apex-predator(エイペックス・プレデター)",
     img: "/apex-predator.png",
-    desc: "",
+    desc: "視点に入り込んでくる。触ると怒って攻撃してくる",
   },
   {
     id: "banger",
-    name: "Banger",
+    name: "Banger(バンガー)",
     img: "/banger.png",
-    desc: "",
+    desc: "爆弾を引火して12秒後に爆発する。爆発に巻き込まれるとダメージを受ける",
   },
   {
     id: "bella",
-    name: "Bella",
+    name: "Bella(ベラ)",
     img: "/bella.png",
-    desc: "",
+    desc: "障害物があると怒ってくる",
   },
   {
     id: "birthday-boy",
-    name: "Birthday-boy",
+    name: "Birthday-boy(バースデイ・ボーイ)",
     img: "/birthday-boy.png",
-    desc: "",
+    desc: "風船を所々に置く、風船を破壊すると襲ってくる",
   },
   {
     id: "bowtie",
-    name: "Bowtie",
+    name: "Bowtie(ボウタイ)",
     img: "/bowtie.png",
-    desc: "",
+    desc: "風を吹き付けて攻撃してくる",
+  },
+  {
+    id: "chef",
+    name: "Chef(シェフ)",
+    img: "/chef.png",
+    desc: "包丁を振り回しながら飛びかかってくる",
   },
   {
     id: "cleanup-crew",
-    name: "Cleanup-crew",
+    name: "Cleanup-crew(クリーンアップ・クルー)",
     img: "/cleanup-crew.png",
-    desc: "",
+    desc: "顔を飛ばして5秒後に爆発する",
   },
   {
     id: "clown",
-    name: "Clown",
+    name: "Clown(クラウン)",
     img: "/clown.png",
-    desc: "",
+    desc: "レーザーを撃ってきて近づくと蹴ってくる",
   },
   {
     id: "elsa",
-    name: "Elsa",
+    name: "Elsa(エルサ)",
     img: "/elsa.png",
-    desc: "",
-  },
-  {
-    id: "eye",
-    name: "Eye",
-    img: "/eye.png",
-    desc: "",
+    desc: "視点に入り込んでくる、触らないと形態変化して怒って攻撃してくる",
   },
   {
     id: "gambit",
-    name: "Gambit",
+    name: "Gambit(ギャンビット)",
     img: "/gambit.png",
-    desc: "",
+    desc: "追いかけてきて強制的にルーレットを回してHPを減らしたり増やしたりする。たまにお金がもらえる",
   },
   {
     id: "gnomes",
-    name: "Gnomes",
+    name: "Gnomes(ノーム)",
     img: "/gnomes.png",
-    desc: "",
+    desc: "貴重品がある場合、壊しに来る",
   },
   {
     id: "hard-hugger",
-    name: "Hard-hugger",
+    name: "Hard-hugger(ハード・ハガー)",
     img: "/hard-hugger.png",
-    desc: "",
+    desc: "ガスを噴出。ガスに触れるとゆっくりと敵の方に吸い寄せられた後、噛みつきで攻撃してくる",
   },
   {
     id: "head-grabber",
-    name: "Head-grabber",
+    name: "Head-grabber(ヘッド・グラバー)",
     img: "/head-grabber.png",
-    desc: "",
+    desc: "ひっかきか、ドロップキックをっしてくる",
   },
   {
     id: "headman",
-    name: "Headman",
+    name: "Headman(ヘッドマン)",
     img: "/headman.png",
-    desc: "",
+    desc: "追いかけて攻撃してきます",
   },
   {
     id: "hide",
-    name: "Hide",
+    name: "Hidden(ヒドゥン)",
     img: "/hide.png",
-    desc: "",
+    desc: "プレイヤーを遠くに運ぶ",
   },
   {
     id: "huntsman",
-    name: "Huntsman",
+    name: "Huntsman(ハンツマン)",
     img: "/huntsman.png",
-    desc: "",
+    desc: "音を立てると撃ってくる",
   },
   {
     id: "loom",
-    name: "Loom",
+    name: "Loom(ルーム)",
     img: "/loom.png",
-    desc: "",
+    desc: "狙ったプレイヤーを追いかけて攻撃する",
   },
   {
     id: "mentalist",
-    name: "Mentalist",
+    name: "Mentalist(メンタリスト)",
     img: "/mentalist.png",
-    desc: "",
+    desc: "重力場を発生させて周囲のプレイヤーや貴重品を浮かせて落下させる",
   },
   {
     id: "oogly",
-    name: "Oogly",
+    name: "Oogly(ウーグリー)",
     img: "/oogly.png",
-    desc: "",
+    desc: "地面を照らしながら飛んでいて、その範囲に入ると襲いかかってくる",
+  },
+  {
+    id: "peeper",
+    name: "Peeper(ピーーパー)",
+    img: "/peeper.png",
+    desc: "プレイヤーの視点を奪う",
   },
   {
     id: "reaper",
-    name: "Reaper",
+    name: "Reaper(リーパー)",
     img: "/reaper.png",
-    desc: "",
+    desc: "刃を振り回しながら前進してくる",
   },
   {
     id: "robe",
-    name: "Robe",
+    name: "Robe(ローブ)",
     img: "/robe.png",
-    desc: "",
+    desc: "目を合わせると加速する",
   },
   {
     id: "rugrat",
-    name: "Rugrat",
+    name: "Rugrat(ラグラット)",
     img: "/rugrat.png",
-    desc: "",
+    desc: "貴重品を投げて攻撃してくる",
   },
   {
     id: "shadow-child",
-    name: "Shadow-child",
+    name: "Shadow-child(シャドウ・チャイルド)",
     img: "/shadow-child.png",
-    desc: "",
-  },
-  {
-    id: "shef",
-    name: "Shef",
-    img: "/shef.png",
-    desc: "",
+    desc: "3秒間見ると攻撃してくる",
   },
   {
     id: "spewer",
-    name: "Spewer",
+    name: "Spewer(スピューワー)",
     img: "/spewer.png",
-    desc: "",
+    desc: "プレイヤーに取り付く、ゲロを出して攻撃してくる",
   },
   {
     id: "tick",
-    name: "Tick",
+    name: "Tick(ティック)",
     img: "/tick.png",
-    desc: "",
+    desc: "プレイヤーから体力を吸い取る",
   },
   {
     id: "trudge",
-    name: "Trudge",
+    name: "Trudge(トラッジ)",
     img: "/trudge.png",
-    desc: "",
+    desc: "プレイヤーを吸い込んで爆発させる",
   },
   {
     id: "upscream",
-    name: "Upscream",
+    name: "Upscream(アップスクリーム)",
     img: "/upscream.png",
-    desc: "",
+    desc: "プレイヤーを吹き飛ばす",
   },
 ];
 
@@ -186,17 +186,19 @@ export default function Page() {
         <Link href="/" className={styles.back} aria-label="ホームに戻る">
           ← ホーム
         </Link>
-        <div className={styles.count}>{ENEMIES.length} 件の敵</div>
+        <div className={styles.count}>{ENEMIES.length} 体の敵</div>
       </div>
 
       <h1 className={styles.title}>敵一覧</h1>
-      <p className={styles.lead}>
-        ゲーム内に登場する代表的な敵たち。カードをクリックすると詳細ページへ移動します（未実装）。
-      </p>
 
       <div className={styles.grid}>
         {ENEMIES.map((e) => (
-          <Link href={`/enemy-list/${e.id}`} key={e.id} className={styles.card} aria-label={`${e.name} の詳細へ`}>
+          <Link
+            href={`/enemy-list/${e.id}`}
+            key={e.id}
+            className={styles.card}
+            aria-label={`${e.name} の詳細へ`}
+          >
             <article>
               <div className={styles.cardImage}>
                 <Image
@@ -209,7 +211,9 @@ export default function Page() {
               </div>
               <div className={styles.cardBody}>
                 <h3 className={styles.cardTitle}>{e.name}</h3>
-                <p className={styles.cardDesc}>{e.desc || '（説明が未設定）'}</p>
+                <p className={styles.cardDesc}>
+                  {e.desc || "（説明が未設定）"}
+                </p>
               </div>
             </article>
           </Link>
