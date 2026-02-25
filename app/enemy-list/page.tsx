@@ -20,7 +20,7 @@ export default async function Page() {
           id: c.id ?? c.slug ?? String(c._id ?? c.id),
           name: c.name ?? c.title ?? "Unnamed",
           img: c.image?.url ?? PLACEHOLDER,
-          desc: c.desc ?? c.description ?? "",
+          desc: c.explanation ?? "",
         }));
       } else {
         // no contents returned — keep empty list
