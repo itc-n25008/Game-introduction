@@ -1,7 +1,8 @@
 # Game-introduction
 
 自分がやっているゲームを紹介するサイトです。
-画像は microCMS で管理し、サイトは microCMS の API を参照して表示します。
+Next.jsとmicroCMSを使用しています。
+ゲームリンク https://store.steampowered.com/app/3241660/REPO/?l=japanese
 
 ## 使用技術
 
