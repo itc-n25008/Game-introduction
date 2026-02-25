@@ -1,7 +1,7 @@
 # Game-introduction
 
 自分がやっているゲームを紹介するサイトです。
-画像は microCMS で一元管理し、サイトは microCMS の API を参照して表示します。
+画像は microCMS で管理し、サイトは microCMS の API を参照して表示します。
 
 ## 使用技術
 
