@@ -16,14 +16,6 @@ Next.jsとmicroCMSを使用しています。
 - Node.js 18+（LTS 推奨）
 - npm
 
-## 環境変数
-
-ルートに `.env.local` を作り、以下の値を設定してください：
-
-```
-MICROCMS_API_KEY=YFajseTJrqUrslIprSW069CHgXNBHvNbPKwd
-MICROCMS_SERVICE_DOMAIN=l2x1yykw5p
-```
 
 ## クイックスタート（ローカル）
 
