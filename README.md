@@ -30,7 +30,7 @@ MICROCMS_SERVICE_DOMAIN=l2x1yykw5p
 1. 依存をインストール
 
 ```bash
-npm ci
+npm install
 ```
 
 2. 開発サーバを起動
